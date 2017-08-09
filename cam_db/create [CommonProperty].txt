@@ -1,0 +1,21 @@
+CREATE TABLE [CommonProperty] (
+		[commonid] integer NOT NULL COLLATE NOCASE,
+		[categoryType] integer,
+		[commonTitle] varchar(20),
+		[commonIntro] varchar(60),
+		[commonContent] varchar(2000),
+		[commonPic1] varchar(50),
+		[commonPic2] varchar(50),
+		[commonPic3] varchar(50),
+		[commonPic4] varchar(50),
+		[createtime] datetime,
+		[praisenum] integer,
+		[browsenum] integer,
+		[userId] integer,
+		[expstartTime] varchar(50),
+		[expendTime] varchar(50),
+		[proType] integer,
+		[goodsContact] varchar(50),
+	PRIMARY KEY ([commonid])
+);
+
