@@ -267,7 +267,7 @@ password
         "categoryType": null,
         "commonTitle": null,
         "commonIntro": null,
-        "commonContent": null,
+        "commonContent": null,  
         "commonPic1": null,
         "commonPic2": null,
         "commonPic3": null,
